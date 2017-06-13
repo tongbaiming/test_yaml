@@ -1,0 +1,24 @@
+distance_to_consider_fixed: 30
+separate_distant_map: true
+create_filtered_map: true
+minimum_distance_to_add_pose: 0.1
+voxel_size_m: 0.01
+minimum_point_number_per_voxel: 5
+remove_ground_from_local_map: false
+ground_distance_to_robot_center_m: 0.2
+use_odometry_information: true
+odom_frame: party_1/instance_1/erlecopter_2/odometry_sensor1
+sensor_frame: party_1/instance_1/erlecopter_2/lidar_link_1
+world_frame: world
+assembled_cloud_sub_topic: assembled_cloud_sub_topic
+trajectory_pub_topic: trajectory_pub_topic
+odometry_trajectory_pub_topic: odometry_trajectory_pub_topic
+full_map_pub_topic: full_map_pub_topic
+local_map_pub_topic: local_map_pub_topic
+distant_map_pub_topic: distant_map_pub_topic
+get_laser_track_srv_topic: get_laser_track_srv_topic
+publish_local_map: true
+publish_full_map: true
+publish_distant_map: true
+map_publication_rate_hz: 5
+
