@@ -10,7 +10,7 @@ use_odometry_information: true
 odom_frame: party_1/instance_1/erlecopter_2/odometry_sensor1
 sensor_frame: party_1/instance_1/erlecopter_2/lidar_link_1
 world_frame: world
-assembled_cloud_sub_topic: assembled_cloud_sub_topic
+assembled_cloud_sub_topic: assembled_cloud_sub_topic_2
 trajectory_pub_topic: trajectory_pub_topic
 odometry_trajectory_pub_topic: odometry_trajectory_pub_topic
 full_map_pub_topic: full_map_pub_topic
