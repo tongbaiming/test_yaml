@@ -1,14 +1,14 @@
 distance_to_consider_fixed: 30
 separate_distant_map: true
 create_filtered_map: true
-minimum_distance_to_add_pose: 0.1
+minimum_distance_to_add_pose: 0.01
 voxel_size_m: 0.01
 minimum_point_number_per_voxel: 5
 remove_ground_from_local_map: false
 ground_distance_to_robot_center_m: 0.2
 use_odometry_information: true
-odom_frame: party_1/instance_1/erlecopter_2/odometry_sensor1
-sensor_frame: party_1/instance_1/erlecopter_2/lidar_link_1
+odom_frame: /world
+sensor_frame: party_1/instance_1/erlecopter_2/base_link_inertia
 world_frame: world
 assembled_cloud_sub_topic: assembled_cloud_sub_topic_2
 trajectory_pub_topic: trajectory_pub_topic
