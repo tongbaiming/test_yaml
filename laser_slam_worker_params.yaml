@@ -9,7 +9,7 @@ ground_distance_to_robot_center_m: 0.2
 use_odometry_information: true
 odom_frame: /world
 sensor_frame: party_1/instance_1/erlecopter_2/base_link_inertia
-world_frame: world
+world_frame: /world
 assembled_cloud_sub_topic: assembled_cloud_sub_topic_2
 trajectory_pub_topic: trajectory_pub_topic
 odometry_trajectory_pub_topic: odometry_trajectory_pub_topic
