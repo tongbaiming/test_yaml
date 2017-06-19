@@ -1,8 +1,8 @@
 distance_to_consider_fixed: 30
 separate_distant_map: true
 create_filtered_map: true
-minimum_distance_to_add_pose: 0.01
-voxel_size_m: 0.01
+minimum_distance_to_add_pose: 0.1
+voxel_size_m: 0.1
 minimum_point_number_per_voxel: 5
 remove_ground_from_local_map: false
 ground_distance_to_robot_center_m: 0.2
