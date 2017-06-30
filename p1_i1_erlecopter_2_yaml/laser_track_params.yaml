@@ -1,0 +1,12 @@
+odometry_noise_model: [0.005, 0.005, 0.005, 0.0015, 0.0015, 0.0015]
+icp_noise_model: [0.005, 0.005, 0.005, 0.0015, 0.0015, 0.0015]
+add_m_estimator_on_odom: true
+add_m_estimator_on_icp: true
+use_icp_factors: true
+use_odom_factors: true
+nscan_in_sub_map: 10
+save_icp_results: true
+force_priors: true
+icp_input_filters_file: /home/tbm/temp/test_yaml/p1_i1_erlecopter_2_yaml/icp_input_filter_file.yaml
+
+

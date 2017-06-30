@@ -1,0 +1,4 @@
+loop_closure_noise_model: [0.005, 0.005, 0.005, 0.0015, 0.0015, 0.0015]
+add_m_estimator_on_loop_closures: true
+do_icp_step_on_loop_closures: true
+loop_closures_sub_maps_radius: 10
